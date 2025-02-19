@@ -1,0 +1,16 @@
+.html-bar {
+  background-color: #e44d26; /* HTML */
+}
+
+.css-bar {
+  background-color: #264de4; /* CSS */
+}
+
+.js-bar {
+  background-color: #f7df1e; /* JavaScript */
+  color: black; /* Mejor visibilidad */
+}
+
+.php-bar {
+  background-color: #777bb4; /* PHP */
+}
