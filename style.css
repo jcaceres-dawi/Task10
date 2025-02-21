@@ -1,16 +1,70 @@
 .html-bar {
-  background-color: #e44d26; /* HTML */
+  background-color: #e44d26;
 }
 
 .css-bar {
-  background-color: #264de4; /* CSS */
+  background-color: #264de4;
 }
 
 .js-bar {
-  background-color: #f7df1e; /* JavaScript */
-  color: black; /* Mejor visibilidad */
+  background-color: #f7df1e;
+  color: black;
 }
 
 .php-bar {
-  background-color: #777bb4; /* PHP */
+  background-color: #777bb4;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hover-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.05);
+}
+
+.animated-btn {
+  transition: transform 0.2s ease-in-out;
+}
+
+.animated-btn:hover {
+  transform: scale(1.1);
+}
+
+.progress-bar {
+  animation: loadProgress 2s ease-in-out;
+}
+
+@keyframes loadProgress {
+  from {
+    width: 0;
+  }
+}
+
+.form-control:focus {
+  border-color: #ffc107 !important;
+  box-shadow: 0 0 5px rgba(255, 193, 7, 0.8) !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-brand:hover {
+  color: #ffc107 !important;
+  transition: color 0.5s ease-in-out;
 }

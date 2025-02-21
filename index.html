@@ -14,7 +14,6 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="img/tetris.jpeg" type="image/x-icon" />
-    <!-- Cambiar la imagen -->
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -45,21 +44,25 @@
       </div>
     </nav>
 
-    <header id="home" class="bg-primary text-white text-center py-5">
+    <header id="home" class="bg-dark text-warning text-center py-5 fade-in">
       <div class="container mt-5">
         <h1>Welcome to My Portfolio</h1>
         <p>Web Developer | Designer | Freelancer</p>
-        <a href="#projects" class="btn btn-light">View My Work</a>
+        <a href="#projects" class="btn btn-light animated-btn">View My Work</a>
       </div>
     </header>
 
     <main>
-      <section id="projects" class="container py-5">
+      <section id="projects" class="container py-5 text-warning fade-in">
         <h2 class="text-center">Projects</h2>
         <div class="row">
           <div class="col-12 col-sm-6 col-md-4 mb-4">
-            <div class="card h-100 w-75 mx-auto rounded-4">
-              <img src="img/nba.png" class="card-img-top rounded-top-4" alt="NBA" />
+            <div class="card h-100 w-75 mx-auto rounded-4 hover-zoom">
+              <img
+                src="img/nba.png"
+                class="card-img-top rounded-top-4"
+                alt="NBA"
+              />
               <div class="card-body">
                 <h5 class="card-title">NBA API</h5>
                 <p class="card-text">
@@ -70,7 +73,7 @@
           </div>
 
           <div class="col-12 col-sm-6 col-md-4 mb-4">
-            <div class="card h-100 w-75 mx-auto rounded-4">
+            <div class="card h-100 w-75 mx-auto rounded-4 hover-zoom">
               <img
                 src="img/aseguradora.webp"
                 class="card-img-top rounded-top-4"
@@ -86,7 +89,7 @@
           </div>
 
           <div class="col-12 col-sm-6 col-md-4 mb-4">
-            <div class="card h-100 w-75 mx-auto rounded-4">
+            <div class="card h-100 w-75 mx-auto rounded-4 hover-zoom">
               <img
                 src="img/gastos.webp"
                 class="card-img-top rounded-top-4"
@@ -103,7 +106,7 @@
         </div>
       </section>
 
-      <section id="skills" class="bg-light py-5">
+      <section id="skills" class="bg-dark text-warning py-5 fade-in">
         <div class="container">
           <h2 class="text-center">Skills</h2>
 
@@ -116,7 +119,9 @@
           </div>
 
           <div class="progress mb-3">
-            <div class="progress-bar js-bar" style="width: 70%">JavaScript</div>
+            <div class="progress-bar js-bar" style="width: 70%">
+              JavaScript
+            </div>
           </div>
 
           <div class="progress mb-3">
@@ -125,7 +130,7 @@
         </div>
       </section>
 
-      <section id="contact" class="container py-5">
+      <section id="contact" class="container py-5 text-warning fade-in">
         <h2 class="text-center">Contact</h2>
         <form>
           <div class="mb-3">
@@ -140,12 +145,14 @@
             <label for="message" class="form-label">Message</label>
             <textarea class="form-control" id="message" rows="3"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Send</button>
+          <button type="submit" class="btn btn-warning animated-btn">
+            Send
+          </button>
         </form>
       </section>
     </main>
 
-    <footer class="bg-dark text-white text-center py-3">
+    <footer class="bg-dark text-warning text-center py-3">
       <p>Jesús Cáceres Francés | &copy; 2025 My Portfolio</p>
     </footer>
 
